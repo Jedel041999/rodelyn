@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Rodelyn T. Calunsag, showcasing projects, skills, and personal interests.">
+  <meta property="og:image" content="path_to_image_for_social_media_preview.jpg">
+  <title>Rodelyn T. Calunsag's Portfolio</title>
+  <!-- Link to external CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.2/dist/sweetalert2.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="text-center">
+    <h1>Welcome to Rodelyn T. Calunsag's Portfolio</h1>
+  </header>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#favorites">Favorites</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- About Section -->
+    <section id="about" class="bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4 text-primary">About Me</h2>
+        <div class="row align-items-center">
+          <div class="col-md-4 text-center">
+            <img src="rodelyn2.jpg" alt="Rodelyn T. Calunsag" class="profile-img img-fluid shadow">
+          </div>
+          <div class="col-md-8">
+            <p><strong>Name:</strong> Rodelyn T. Calunsag</p>
+            <p><strong>Year & Section:</strong> 3rd</p>
+            <p><strong>Address:</strong> Purok 3 Gata Diot, Clarin, Misamis Occidental</p>
+            <p><strong>School:</strong> Northwestern Mindanao State College of Science and Technology</p>
+            <p><strong>Skills:</strong> Electrical wiring, troubleshooting, system installations, and software development. Proficient in coding languages such as HTML, CSS, JavaScript, Python, and Java.</p>
+            <p><strong>Languages:</strong> Fluent in Bisaya, Tagalog, and English.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Personal Picture Carousel Section -->
+    <section id="pictures" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4 text-primary">My Pictures</h2>
+        
+        <!-- Bootstrap Carousel for Personal Pictures -->
+        <div id="personalPicturesCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#personalPicturesCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#personalPicturesCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#personalPicturesCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#personalPicturesCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+           
+            <div class="carousel-item active">
+              <img src="rodelyn2.jpg" class="d-block w-100" alt="Rodelyn's Profile Picture">
+            </div>
+         
+            <div class="carousel-item">
+              <img src="rodelyn1.jpg" class="d-block w-100" alt="Picture 2">
+            </div>
+           
+            <div class="carousel-item">
+              <img src="rodelyn4.jpg" class="d-block w-100" alt="Picture 3">
+            </div>
+           
+            <div class="carousel-item">
+              <img src="rodelyn3.jpg" class="d-block w-100" alt="Picture 4">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#personalPicturesCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#personalPicturesCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    <section id="portfolio" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4 text-primary">Portfolio</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="work1.png" class="card-img-top" alt="Project 1">
+              <div class="card-body">
+                <h5 class="card-title">Project 1</h5>
+                <p class="card-text">This project is all about Bantayan Island</p>
+                <a href="https://jedel123.github.io/Bantayan-Island/" class="btn btn-custom">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="work2.png" class="card-img-top" alt="Project 2">
+              <div class="card-body">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">This project is all about Online booking system</p>
+                <a href="https://jedel123.github.io/Bantayan-Island/Accommodation.html" class="btn btn-custom">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="work3.png" class="card-img-top" alt="Project 3">
+              <div class="card-body">
+                <h5 class="card-title">Project 3</h5>
+                <p class="card-text">This project is all about student portal</p>
+                <a href="https://jedel123.github.io/Bantayan-Island/Activities.html" class="btn btn-custom">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Favorites Section -->
+    <section id="favorites" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4 text-primary">Favorites</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="text-center text-primary">Favorite Foods</h3>
+            <ul class="list-group shadow">
+              <li class="list-group-item">Adobo</li>
+              <li class="list-group-item">Bihon</li>
+              <li class="list-group-item">Shiomai</li>
+              <li class="list-group-item">Pizza</li>
+              <li class="list-group-item">Lechon</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h3 class="text-center text-primary">Favorite Games</h3>
+            <ul class="list-group shadow">
+              <li class="list-group-item">Mobile Legends</li>
+              <li class="list-group-item">Clash of Clans</li>
+              <li class="list-group-item">Minecraft</li>
+              <li class="list-group-item">Valorant</li>
+              <li class="list-group-item">Call of Duty</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-4 text-primary">Contact Me</h2>
+        <form method="POST" action="submit_contact.php">
+          <div class="row">
+              <div class="col-md-6 mb-3">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input type="text" id="name" name="name" class="form-control" required placeholder="Enter your full name">
+              </div>
+              <div class="col-md-6 mb-3">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input type="email" id="email" name="email" class="form-control" required placeholder="Enter your email address">
+              </div>
+          </div>
+          <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea id="message" name="message" rows="5" class="form-control" required placeholder="Write your message here"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Send Message</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- SweetAlert2 JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.2/dist/sweetalert2.min.js"></script>
+
+<?php if (isset($_GET['status'])): ?>
+  <script>
+    // Show SweetAlert based on the status
+    const status = "<?php echo $_GET['status']; ?>";
+    if (status === 'success') {
+      Swal.fire({
+        title: 'Success!',
+        text: 'Your message has been sent successfully.',
+        icon: 'success',
+        confirmButtonText: 'OK'
+      }).then(() => {
+        window.location.href = "index.html";  // Redirect after SweetAlert
+      });
+    } else if (status === 'failed') {
+      Swal.fire({
+        title: 'Error!',
+        text: 'There was an error submitting your message. Please try again.',
+        icon: 'error',
+        confirmButtonText: 'OK'
+      }).then(() => {
+        window.location.href = "index.html";  // Redirect after SweetAlert
+      });
+    }
+  </script>
+<?php endif; ?>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
